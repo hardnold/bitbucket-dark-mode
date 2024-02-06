@@ -60,7 +60,10 @@ function injectDarkMode() {
       });
       chrome.storage.sync.set({ bitbucketDarkModeEnabled: true });
     } else {
-      console.error("bitbucket-darkmode: No active tab found", tabs);
+      console.error(
+        "bitbucket-darkmode: No active tab found! Do you have the developer tool open?",
+        tabs
+      );
     }
   });
 }
@@ -78,7 +81,10 @@ function removeDarkMode() {
       });
       chrome.storage.sync.set({ bitbucketDarkModeEnabled: false });
     } else {
-      console.error("bitbucket-darkmode: No active tab found", tabs);
+      console.error(
+        "bitbucket-darkmode: No active tab found! Do you have the developer tool open?",
+        tabs
+      );
     }
   });
 }
