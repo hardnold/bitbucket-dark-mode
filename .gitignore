@@ -1,5 +1,8 @@
 node_modules
 
+# built output
+public/js
+
 # keys for signing the package
 public.crx
 public.pem
