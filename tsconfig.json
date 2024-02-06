@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "public/js",
+    "allowJs": false,
+    "target": "es6",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./public/*", "./node_modules/*"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "bitbucket-darkmode-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "bitbucket",
+    "darkmode",
+    "chrome",
+    "extension"
+  ],
+  "author": "Daniel Engelhardt - Evolute CX GmbH",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "typescript": "^5.3.3"
+  }
+}

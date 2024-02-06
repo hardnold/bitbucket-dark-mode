@@ -1,0 +1,5 @@
+node_modules
+
+# keys for signing the package
+public.crx
+public.pem
