@@ -31,5 +31,10 @@ hint 3: the extension uses `chrome.tabs.query`-API to query for the active tab. 
 
 ## Currently WIP:
 
-- [ ] Dark Theme
+- [ ] Optimize Dark Theme
+- [ ] Find green/red color when whole file has been added/removed
 - [ ] Submit Extension to chrome webstore
+
+## Credits
+
+dark theme based on [this gist](https://gist.github.com/peterk87/8463882) by peterk87, modified

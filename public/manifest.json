@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "js": ["./js/content.js"],
-      "matches": ["<all_urls>"],
+      "matches": ["https://bitbucket.org/*"],
       "run_at": "document_start",
       "type": "module"
     }
@@ -32,7 +32,7 @@
   "web_accessible_resources": [
     {
       "resources": ["theme-dark.css"],
-      "matches": ["<all_urls>"]
+      "matches": ["https://bitbucket.org/*"]
     }
   ]
 }

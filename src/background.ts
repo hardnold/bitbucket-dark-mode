@@ -2,13 +2,6 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.set({ bitbucketDarkModeEnabled: false });
 });
 
-// chrome.action.onClicked.addListener((tab) => {
-//   chrome.scripting.executeScript({
-//     target: { tabId: tab.id },
-//     func: toggleDarkMode,
-//   });
-// });
-
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   console.log("Message received: ", request);
   if (request.action === "toggleDarkMode") {
