@@ -31,7 +31,7 @@ code {
 	background-color: #1E1E1E !important;
 }
 pre, .pre {
-	background-color: #1E1E1E !important;
+	/* background-color: #1E1E1E !important; */
 	color: #888 !important;
 }
 div {
@@ -100,10 +100,27 @@ nav#repo-tabs,
     color: #8a8 !important;
 }
 
+// TODO: fix
+/* .bitkit-diff-wrapper-diff .code-diff {
+  background-color: #146136 !important;
+
+  span {
+    background-color: transparent !important;
+  }
+} */
+
+.bitkit-diff-wrapper-diff .line-wrapper.type-add {
+  background-color: #146136 !important;
+}
+
+.bitkit-diff-wrapper-diff .line-wrapper.type-remove {
+  background-color: #82250e !important;
+}
 
 .bitkit-diff-wrapper-diff .code-component ins {
   background-color: #146136 !important;
 }
+
 .bitkit-diff-wrapper-diff .code-component del {
   background-color: #82250e !important;
 }
